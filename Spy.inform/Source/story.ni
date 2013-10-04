@@ -16,8 +16,6 @@ Instead of combining shoelace with thumbtak:
 say "You thread the shoelace onto the thumbtack";
 remove shoelace from play;
 Change description of thumbtack to "A thumbtack with shoelace tied around it."
-Change description of thumbtack to "A thumbtack with shoelace tied around it."
-
 The Surveillance room is a room. It is east of the interrogation room. The description of the room is "This is where it seems someone was observing you while in the interrogation room. There is a computer and a surveillance system here. In the corner of the room is a white cabinet. There is a closet built into the wall."
 Cabinet is scenery in the Surveillance room. It is a closed-openable container. The description of cabinet is "A white cabinet. There's probably files inside."
 Closet is scenery in the Surveillance room. It is a closed-openable container. The description of the closet is "A large wooden closet. It looks pretty busted up."
