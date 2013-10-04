@@ -9,11 +9,13 @@ Bulletin board is scenery in the interrogation room. The description of bulletin
 Notice is a thing in the interrogation room. The description of notice is "There is a picture of a man with short grey hair and a five o'clock shadow. Above the picture, it says 'Wanted: Jacob Smith.'"
 Thumbtack is a thing in the interrogation room. The description of thumbtack is "A long, sharp red thumbtack."
 Shoes is a thing in the interrogation room. The description of shoes is "Elegant, black, leather shoes. They have laces."
-Instead o
+Shoelace is a thing. 
+Instead of removing shoelace from shoe,
 Understand "combine [shoelace] with [thumtack]" as combining it with. 
 Instead of combining shoelace with thumbtak:
 say "You thread the shoelace onto the thumbtack";
 remove shoelace from play;
+Change description of thumbtack to "A thumbtack with shoelace tied around it."
 Change description of thumbtack to "A thumbtack with shoelace tied around it."
 
 The Surveillance room is a room. It is east of the interrogation room. The description of the room is "This is where it seems someone was observing you while in the interrogation room. There is a computer and a surveillance system here. In the corner of the room is a white cabinet. There is a closet built into the wall."
