@@ -1,0 +1,120 @@
+Debugging log of Inform 7
+Inform called as: /Applications/Inform.app/Contents/Resources/Compilers/ni -rules /Applications/Inform.app/Contents/Resources/Inform7/Extensions -package /Users/ckuwada14/Desktop/Inform 7.inform -extension=z8 
+
+
+-----------------------------------------------------
+Phase I ... Lexical analysis
+-----------------------------------------------------
+
+I've now read your source text, which is 534 words long.
+
+
+-----------------------------------------------------
+Phase II ... Semantic analysis Ia
+-----------------------------------------------------
+
+I've also read Standard Rules by Graham Nelson, which is 39455 words long.
+
+
+-----------------------------------------------------
+Phase III ... Initialise language semantics
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IV ... Semantic analysis Ib
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase V ... Semantic analysis II
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VI ... Semantic analysis III
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VII ... First pass through assertions
+-----------------------------------------------------
+
+Problem C8RuleWithoutColon issued from Chapter 8/Traverse for Assertions.w, line 300
+
+  >--> You wrote 'Instead o Understand "combine [shoelace] with [thumtack]" as
+    combining it with' (source text, line 12): but I can't find a verb that I
+    know how to deal with, so can't do anything with this sentence. It looks as
+    if it might be a rule definition, but if so then it is lacking the
+    necessary colon (or comma). The punctuation style for rules is 'Rule
+    conditions: do this; do that; do some more.' Perhaps you used a full stop
+    instead of the colon?
+
+    Problem C8ChalkCheese issued from Chapter 8/Make Assertions.w, line 1339
+
+      >--> The sentence 'It is a closed-openable container' (source text, line 20)
+        appears to say two things are the same - I am reading 'It' and
+        'closed-openable container' as two different things, and therefore it makes
+        no sense to say that one is the other: it would be like saying that 'the
+        hawk is the handsaw'. It would be all right if the second thing were the
+        name of a kind, perhaps with properties: for instance 'Elsinore is a
+        lighted room' says that something called Elsinore exists and that it is a
+        'room', which is a kind I know about, combined with a property called
+        'lighted' which I also know about.
+
+    Problem C8ChalkCheese issued from Chapter 8/Make Assertions.w, line 1339
+
+      >--> The sentence 'It is a closed-openable container' (source text, line 21)
+        appears to say two things are the same - I am reading 'It' and
+        'closed-openable container' as two different things, and therefore it makes
+        no sense to say that one is the other: it would be like saying that 'the
+        hawk is the handsaw'. It would be all right if the second thing were the
+        name of a kind, perhaps with properties: for instance 'Elsinore is a
+        lighted room' says that something called Elsinore exists and that it is a
+        'room', which is a kind I know about, combined with a property called
+        'lighted' which I also know about.
+
+Problem C8NameWithText issued from Chapter 8/The Creator.w, line 464
+(Assertion error: looking for alternative verbs in <the description of the room is "
+Alley is a room. It is east of the entrance. The description of the room is " 2>.)
+
+  >--> You wrote 'The description of the room is " Alley is a room. It is east
+    of th [...] e. The description of the room is " 2' (source text, line 27):
+    but this seems to give something a name which contains double-quoted text,
+    which is not allowed. If you do need quotes in a name, one option would be
+    to write something like 'In the Saloon is 'Black' Jacques Bernoulli.'; but
+    this problem message is often caused by an accident in punctuation, in
+    which case you never intended to create an object - you thought that the
+    text ended a sentence because it finished with sentence-ending punctuation,
+    when in fact it didn't, so that I read the next words as following on.
+
+
+
+-----------------------------------------------------
+Phase VIII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 4 files written as streams.
+
+That concludes the debugging log from this run of Inform.
+Its contents were as follows, and can be changed by placing
+text like 'Include property creations in the debugging log.'
+or 'Omit everything from the debugging log.' in the source.
+
+Included:
+  debugging log contents  debugging log inclusions
+Omitted:
+  action creations   action pattern compilation  action pattern parsing  assemblies    assertions    case insensitive filehandling
+  conditions    constructed past participles  constructed plurals   description compilation   excerpt meanings   excerpt parsing 
+  expressions    extensions census   figure creations   grammar    grammar construction   headings  
+  implications    inferences    kind changes   kind checking   kind creations   lexical output 
+  local variables   matching    meaning list allocation  memory allocation   noun resolution   object compilation 
+  object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
+  phrase usage   predicate calculus   predicate calculus workings  pronouns    property assignments   property creations 
+  property provision   property translations   relation definitions   rule attachments   rulebook compilation   spatial map 
+  spatial map workings  specification permissions   specification usage   specificities    table construction   template reading 
+  text substitutions   time periods   variable creations   verifications    vocabulary  

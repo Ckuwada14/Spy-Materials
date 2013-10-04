@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1880ad0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1880ad0" />
+  <item nodeId="node-0x1880ad0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You awake in a dark room. You can&apos;t see anything at all. You can feel yourself sitting in a chair and you can make out a table in front of you. You have no idea where you are or what you were last doing. In fact, you don&apos;t remember anything about your past.
+
+Inform 7
+An Interactive Fiction by Cameron Kuwada
+Release 1 / Serial number 131001 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+interrogation room
+It is very drab in here. There is a bulletin board in the back. in the corner are your shoes and belt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
