@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1bc1430" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1bdea30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18e1e80" />
-  <item nodeId="node-0x1bc1430">
+  <activeNode nodeId="node-0x1bdea30" />
+  <item nodeId="node-0x1bdea30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,142 +12,253 @@ You awake in a dark room. You can&apos;t see anything at all. You can feel yours
 
 Inform 7
 An Interactive Fiction by Cameron Kuwada
-Release 1 / Serial number 131007 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 131009 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 interrogation room
-It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt.
+It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
+
+You can see Backdoor, Notice, Thumbtack and Shoes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">NO</temporary>
+    <children>
+      <child nodeId="node-0x1bec9e0" />
+      <child nodeId="node-0x1bde870" />
+      <child nodeId="node-0x1bd0db0" />
+      <child nodeId="node-0x1bed2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bed2d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Backdoor)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bd0db0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+A guard paces back and forth through the hallway. To the north is the office.
+
+You can see Officer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b08cc0" />
+      <child nodeId="node-0xf767de0" />
+      <child nodeId="node-0x1b20880" />
+      <child nodeId="node-0x75466b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x75466b0">
+    <command xml:space="preserve">hallway</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b20880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+interrogation room
+It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
 
 You can see Backdoor, Notice, Thumbtack and Shoes here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="24">NO</temporary>
+    <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x1bc1480" />
-      <child nodeId="node-0xf84b900" />
+      <child nodeId="node-0x1b460a0" />
     </children>
   </item>
-  <item nodeId="node-0xf84b900">
+  <item nodeId="node-0x1b460a0">
+    <command xml:space="preserve">enter hallway</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x722c880" />
+    </children>
+  </item>
+  <item nodeId="node-0x722c880">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x72b8270" />
+    </children>
+  </item>
+  <item nodeId="node-0x72b8270">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+A guard paces back and forth through the hallway. To the north is the office.
+
+You can see Officer here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0xf767de0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b08cc0">
+    <command xml:space="preserve">talk to officer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bde870">
     <command xml:space="preserve">take thumbtack</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18c3f20" />
+      <child nodeId="node-0x1bde8c0" />
     </children>
   </item>
-  <item nodeId="node-0x18c3f20">
+  <item nodeId="node-0x1bde8c0">
     <command xml:space="preserve">take shoes</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xed1f9d0" />
+      <child nodeId="node-0x1bde910" />
     </children>
   </item>
-  <item nodeId="node-0xed1f9d0">
+  <item nodeId="node-0x1bde910">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x1b026e0" />
+      <child nodeId="node-0x1bec5d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b026e0">
+  <item nodeId="node-0x1bec5d0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xf858110" />
+      <child nodeId="node-0x1bec640" />
     </children>
   </item>
-  <item nodeId="node-0xf858110">
+  <item nodeId="node-0x1bec640">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a lockpick.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x1872c00" />
+      <child nodeId="node-0x1bec6b0" />
     </children>
   </item>
-  <item nodeId="node-0x1872c00">
+  <item nodeId="node-0x1bec6b0">
     <command xml:space="preserve">x lockpick</command>
     <result xml:space="preserve">A lockpick made with a shoelace and a thumbtack. True class right there.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xb9a7820" />
+      <child nodeId="node-0x1bec7a0" />
     </children>
   </item>
-  <item nodeId="node-0xb9a7820">
+  <item nodeId="node-0x1bec7a0">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xedf9f70" />
+      <child nodeId="node-0x1bec7f0" />
     </children>
   </item>
-  <item nodeId="node-0xedf9f70">
+  <item nodeId="node-0x1bec7f0">
     <command xml:space="preserve">unlock backdoor with shoelaces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xf8a31e0" />
+      <child nodeId="node-0x1bec840" />
     </children>
   </item>
-  <item nodeId="node-0xf8a31e0">
+  <item nodeId="node-0x1bec840">
     <command xml:space="preserve">unlock back door with lockpick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xf884ad0" />
+      <child nodeId="node-0x1bec8b0" />
     </children>
   </item>
-  <item nodeId="node-0xf884ad0">
+  <item nodeId="node-0x1bec8b0">
     <command xml:space="preserve">unlock backdoor with lockpick</command>
     <result xml:space="preserve">You unlock Backdoor.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0xb9a5660" />
+      <child nodeId="node-0x1bec920" />
     </children>
   </item>
-  <item nodeId="node-0xb9a5660">
+  <item nodeId="node-0x1bec920">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 
@@ -158,13 +269,107 @@ You can see Backdoor here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x18e1e80" />
+      <child nodeId="node-0x1bec990" />
+      <child nodeId="node-0x1beca50" />
     </children>
   </item>
-  <item nodeId="node-0x18e1e80">
+  <item nodeId="node-0x1beca50">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open Closet, revealing Guard uniform.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bec740" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bec740">
+    <command xml:space="preserve">take guard uniform</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1becac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1becac0">
+    <command xml:space="preserve">x closet</command>
+    <result xml:space="preserve">A large wooden closet. It looks pretty busted up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1becb30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1becb30">
+    <command xml:space="preserve">wear guard uniform</command>
+    <result xml:space="preserve">You put on Guard uniform.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1becba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1becba0">
+    <command xml:space="preserve">wear uniform</command>
+    <result xml:space="preserve">You&apos;re already wearing that!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1becc10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1becc10">
+    <command xml:space="preserve">wear guard uniform</command>
+    <result xml:space="preserve">You&apos;re already wearing that!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1becc80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1becc80">
+    <command xml:space="preserve">kill yourself</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="105">YES</temporary>
+    <children>
+      <child nodeId="node-0x1beccf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beccf0">
+    <command xml:space="preserve">die</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="104">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bec990">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -173,7 +378,7 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x1bc1480">
+  <item nodeId="node-0x1bec9e0">
     <command xml:space="preserve">take shoes</command>
     <result xml:space="preserve">Taken.
 
@@ -182,67 +387,12 @@ You can see Backdoor here.
     <changed>NO</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0xf865900" />
-      <child nodeId="node-0xf84b400" />
-      <child nodeId="node-0x1bc14d0" />
+      <child nodeId="node-0x1becee0" />
+      <child nodeId="node-0x1becfc0" />
+      <child nodeId="node-0x1bed110" />
     </children>
   </item>
-  <item nodeId="node-0x1bc14d0">
-    <command xml:space="preserve">remove shoelaces from shoes</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bc1520" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bc1520">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Notice: Taken.
-Thumbtack: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0xf84b400">
-    <command xml:space="preserve">remove shoelaces</command>
-    <result xml:space="preserve">You&apos;re not wearing that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0xb811cc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb811cc0">
-    <command xml:space="preserve">remove shoelaces from shoes</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0xb816aa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb816aa0">
-    <command xml:space="preserve">take shoelaces</command>
-    <result xml:space="preserve">You already have that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-  </item>
-  <item nodeId="node-0xf865900">
+  <item nodeId="node-0x1bed110">
     <command xml:space="preserve">take thumbtack</command>
     <result xml:space="preserve">Taken.
 
@@ -251,10 +401,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x72a4780" />
+      <child nodeId="node-0x1bed180" />
     </children>
   </item>
-  <item nodeId="node-0x72a4780">
+  <item nodeId="node-0x1bed180">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -262,10 +412,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0xa2593e0" />
+      <child nodeId="node-0x1bed1f0" />
     </children>
   </item>
-  <item nodeId="node-0xa2593e0">
+  <item nodeId="node-0x1bed1f0">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack
 &gt;</result>
@@ -273,10 +423,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0xa24d5c0" />
+      <child nodeId="node-0x1bed260" />
     </children>
   </item>
-  <item nodeId="node-0xa24d5c0">
+  <item nodeId="node-0x1bed260">
     <command xml:space="preserve">x thumbtack</command>
     <result xml:space="preserve">A thumbtack with shoelace tied around it.
 
@@ -284,5 +434,60 @@ Thumbtack: Taken.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x1becfc0">
+    <command xml:space="preserve">remove shoelaces</command>
+    <result xml:space="preserve">You&apos;re not wearing that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bed030" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bed030">
+    <command xml:space="preserve">remove shoelaces from shoes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bed0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bed0a0">
+    <command xml:space="preserve">take shoelaces</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1becee0">
+    <command xml:space="preserve">remove shoelaces from shoes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x1becf50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1becf50">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Notice: Taken.
+Thumbtack: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
   </item>
 </Skein>
