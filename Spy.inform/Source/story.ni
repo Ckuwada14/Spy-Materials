@@ -40,8 +40,9 @@ Lab is a room. It is east of the surveillance room.
 Hallway is a room. It is north of the interrogation room. The description of the hallway is "A guard paces back and forth through the hallway. To the north is the office."
 Officer is a man in the hallway. After examining officer: say "He wears blue-collar shirt, and a red beret.  A revolver and a walkie-talkie hang from his belt." 
 
-After entering the hallway:
-If the player is not wearing guard uniform, say "The guard sees you and shoots on sight.";
+Every turn when player is in the hallway:
+	If the player is not wearing guard uniform:
+		 say "The guard sees you and shoots on sight.";
 		end the game in death.
 Office is a room. It is north of the hallway. The description of the office is "A grey cabinet lies against the wall. Janet, the Secretary sits at her table. To the north is the weapons room."
 Weapons room is a room. It is north of the office. The description of the Weapons room is "A metal case lies against the wall. A gun shelf is bolted against another wall. To the south is the office."
