@@ -30,19 +30,28 @@ Every turn:
 	If player unlocks backdoor, say "You successfully pick the lock".
 		
 The Surveillance room is a room. It is east of the of the surveillance room. The description of the surveillance room is "This is where it seems someone was observing you while in the interrogation room. There is a surveillance system here. In the corner of the room is a white cabinet. There is a closet against the wall."
-Cabinet is scenery in the Surveillance room. It is a closed openable container. The description of cabinet is "A white cabinet. There's probably files inside."
+White Cabinet is scenery in the Surveillance room. It is a closed openable container. The description of white cabinet is "A white cabinet. There's probably files inside."
 Closet is scenery in the Surveillance room. It is a closed openable container. The description of the closet is "A large wooden closet. It looks pretty busted up."
 Guard uniform is a thing inside the closet. The guard uniform is wearable.
 Pistol is a thing inside the closet. The description of Pistol is "A m9 Beretta in silver finish. It is heavy."
 Computer is scenery inside the surveillance room. The description of surveillance system is "The screens show various rooms."
-Files is a thing inside the cabinet. The description of files is "A bunch of files. None are important except for one on in a red piece folder that says 'Profile: Jacob Smith. Property of U.S. military.'"
-Lab is a room. It is east of the surveillance room. 
+Files is a thing inside the white cabinet. The description of files is "A bunch of files. None are important except for one on in a red piece folder that says 'Profile: Jacob Smith. Property of U.S. military.'"
+Lab is a room. It is east of the surveillance room. The description of lab is "A large monitor hangs on the wall. There is keyboard that you can use."
+Keyboard is a thing inside the lab. 
 Hallway is a room. It is north of the interrogation room. The description of the hallway is "A guard paces back and forth through the hallway. To the north is the office."
 Officer is a man in the hallway. After examining officer: say "He wears blue-collar shirt, and a red beret.  A revolver and a walkie-talkie hang from his belt." 
-
+The ID is a thing carried by the officer. The description of the ID is "A picutre of the officer. His name is Brandon Erinson." 
 Every turn when player is in the hallway:
 	If the player is not wearing guard uniform:
 		 say "The guard sees you and shoots on sight.";
 		end the game in death.
+
 Office is a room. It is north of the hallway. The description of the office is "A grey cabinet lies against the wall. Janet, the Secretary sits at her table. To the north is the weapons room."
-Weapons room is a room. It is north of the office. The description of the Weapons room is "A metal case lies against the wall. A gun shelf is bolted against another wall. To the south is the office."
+White door is a closed door. It is lockable and locked. The white door is north of the office and south of the weapons room. The ID unlocks the white door.
+Every turn:
+	If player unlocks white door, say "You swipe the id card and the door opens".
+Weapons room is a room. It is north of the white door. The description of the Weapons room is "A metal case lies against the wall. A gun shelf is bolted against another wall. To the south is the office."
+Gun shelf is a thing in the weapons room. The description of the gunshelf is "A wooden shelf with modular planks to hold guns. Although no guns are on here at the moment. A silencer rests on the shelf."
+Metal case is a things in the weapons room. It is a closed openable container. "A heavy duty metal case with bolts."
+Magazine is a thing inside the the metal case. The description of magazine is "A m9 magazine completely loaded with 9mm bullets."
+Entrance is a room. It is east of the office. The description of the entrance is "Two guards wait at the entrance."
