@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x6dceff0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18ab8a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x6dceff0" />
-  <item nodeId="node-0x6dceff0">
+  <activeNode nodeId="node-0x18ab8a0" />
+  <item nodeId="node-0x18ab8a0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -15,31 +15,31 @@ An Interactive Fiction by Cameron Kuwada
 Release 1 / Serial number 131017 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 interrogation room
-It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
+It is very   in here. There is a bulletin board in the back. To the north is the hallway. A metal door to another room is to the east.
 
-You can see Metal door, Notice, Thumbtack and Shoes here.
+You can see Metal door and Shoes here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="211">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="102">NO</temporary>
     <children>
-      <child nodeId="node-0x6dd2ed0" />
-      <child nodeId="node-0x6dd63c0" />
-      <child nodeId="node-0x6dd5470" />
-      <child nodeId="node-0x6dd2a00" />
-      <child nodeId="node-0x6dcf4f0" />
-      <child nodeId="node-0x6dcf480" />
-      <child nodeId="node-0x6dcf090" />
+      <child nodeId="node-0x6d27dc0" />
+      <child nodeId="node-0x6d26f50" />
+      <child nodeId="node-0x6d25ba0" />
+      <child nodeId="node-0x6d256d0" />
+      <child nodeId="node-0x6d223a0" />
+      <child nodeId="node-0x6d22330" />
+      <child nodeId="node-0x18ab8f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf090">
+  <item nodeId="node-0x18ab8f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Hallway
-A guard paces back and forth through the hallway. To the north is the office.
+hallway
+A guard paces around at the other end of the hallway. To the north is the office. to the west is a weapons room.
 
-You can see Officer here.
+You can see White door and Officer here.
 
 The guard sees you and shoots on sight.
 
@@ -55,15 +55,14 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="111">YES</temporary>
+    <temporary score="91">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf430" />
-      <child nodeId="node-0x6dcf3e0" />
-      <child nodeId="node-0x6dcf170" />
-      <child nodeId="node-0x6dcf100" />
+      <child nodeId="node-0x18abd50" />
+      <child nodeId="node-0x18ab990" />
+      <child nodeId="node-0x18ab940" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf100">
+  <item nodeId="node-0x18ab940">
     <command xml:space="preserve">hallway</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -72,7 +71,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x6dcf170">
+  <item nodeId="node-0x18ab990">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 interrogation room
@@ -85,10 +84,10 @@ You can see Backdoor, Notice, Thumbtack and Shoes here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf220" />
+      <child nodeId="node-0x18abb80" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf220">
+  <item nodeId="node-0x18abb80">
     <command xml:space="preserve">enter hallway</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -97,10 +96,10 @@ You can see Backdoor, Notice, Thumbtack and Shoes here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf280" />
+      <child nodeId="node-0x18abbf0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf280">
+  <item nodeId="node-0x18abbf0">
     <command xml:space="preserve">m</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -109,10 +108,10 @@ You can see Backdoor, Notice, Thumbtack and Shoes here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf2f0" />
+      <child nodeId="node-0x18abc60" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf2f0">
+  <item nodeId="node-0x18abc60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -125,25 +124,452 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0x6dcf3e0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
+  <item nodeId="node-0x18abd50">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">interrogation room
+[Previous turn undone.]
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x18abda0" />
+    </children>
   </item>
-  <item nodeId="node-0x6dcf430">
-    <command xml:space="preserve">talk to officer</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x18abda0">
+    <command xml:space="preserve">x bulletin board</command>
+    <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x18abdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18abdf0">
+    <command xml:space="preserve">take thumbtack</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x18abe60" />
+    </children>
+  </item>
+  <item nodeId="node-0x18abe60">
+    <command xml:space="preserve">x notice</command>
+    <result xml:space="preserve">There is a picture of a man with short grey hair and a five o&apos;clock shadow. He has a scar above his right eye. Above the picture, it says &quot;Wanted: Jacob Smith.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x18abed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18abed0">
+    <command xml:space="preserve">take shoes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21560" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21560">
+    <command xml:space="preserve">remove shoelaces</command>
+    <result xml:space="preserve">You remove shoelaces from shoes
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x18abcf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18abcf0">
+    <command xml:space="preserve">combine thumbtack with shoelaces</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d215d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d215d0">
+    <command xml:space="preserve">combine shoelaces with thumbtack</command>
+    <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a make shift lockpick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21640" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21640">
+    <command xml:space="preserve">unlock metal door with lockpick</command>
+    <result xml:space="preserve">You unlock Metal door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d216b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d216b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Metal door)
+
+surveillance room
+This is where it seems someone was observing you while in the interrogation room. There is a surveillance system monitoring various rooms. In the corner of the room is a white cabinet. There is a closet against the wall. To the west is lab.
+
+You can see Metal door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21720" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21720">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lab
+A large monitor hangs on the wall. There is keyboard that you can use.
+
+You can see Keyboard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21790" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21790">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+surveillance room
+This is where it seems someone was observing you while in the interrogation room. There is a surveillance system monitoring various rooms. In the corner of the room is a white cabinet. There is a closet against the wall. To the west is lab.
+
+You can see Metal door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21800" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21800">
+    <command xml:space="preserve">x computer</command>
+    <result xml:space="preserve">You see nothing special about Computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d214a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d214a0">
+    <command xml:space="preserve">open white cabinet</command>
+    <result xml:space="preserve">You open White Cabinet, revealing Files.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d214f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d214f0">
+    <command xml:space="preserve">take files</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d219f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d219f0">
+    <command xml:space="preserve">x files</command>
+    <result xml:space="preserve">A bunch of files. None are important except for one on in a red piece folder that says &quot;Profile: Jacob Smith. Property of U.S. military.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21a60">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21ad0">
+    <command xml:space="preserve">take guard uniform</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21b40">
+    <command xml:space="preserve">x closet</command>
+    <result xml:space="preserve">A large wooden closet. It looks pretty busted up.
+
+In Closet is Pistol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21bb0">
+    <command xml:space="preserve">take pistol</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21c20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+interrogation room
+It is very   in here. There is a bulletin board in the back. To the north is the hallway. A metal door to another room is to the east.
+
+You can see Metal door and Notice here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21c90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+hallway
+A guard paces around at the other end of the hallway. To the north is the office. to the west is a weapons room.
+
+You can see White door and Officer here.
+
+The guard sees you and shoots on sight.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 0, in 21 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21d00">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">interrogation room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21d70">
+    <command xml:space="preserve">put on guard uniform</command>
+    <result xml:space="preserve">You put on Guard uniform.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21de0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+hallway
+A guard paces around at the other end of the hallway. To the north is the office. to the west is a weapons room.
+
+You can see White door and Officer here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d222c0" />
+      <child nodeId="node-0x6d21e50" />
+    </children>
   </item>
-  <item nodeId="node-0x6dcf480">
+  <item nodeId="node-0x6d21e50">
+    <command xml:space="preserve">kill guard</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21870" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21870">
+    <command xml:space="preserve">shoot guard</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d218e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d218e0">
+    <command xml:space="preserve">kill guard with pistol</command>
+    <result xml:space="preserve">You shoot the guard and he falls down. His ID falls out of his pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d21950" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d21950">
+    <command xml:space="preserve">take ID</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d22100" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d22100">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+office
+You can see White door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d22170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d22170">
+    <command xml:space="preserve">x office</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d221e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d221e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Entrance
+Two guards wait at the entrance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d22250" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d22250">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x6d222c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening White door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+  </item>
+  <item nodeId="node-0x6d22330">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 It seems to be locked.
@@ -153,7 +579,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
   </item>
-  <item nodeId="node-0x6dcf4f0">
+  <item nodeId="node-0x6d223a0">
     <command xml:space="preserve">x metal door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -162,10 +588,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf560" />
+      <child nodeId="node-0x6d22410" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf560">
+  <item nodeId="node-0x6d22410">
     <command xml:space="preserve">x backdoor</command>
     <result xml:space="preserve">You see nothing special about Backdoor.
 
@@ -174,10 +600,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf690" />
+      <child nodeId="node-0x6d22480" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf690">
+  <item nodeId="node-0x6d22480">
     <command xml:space="preserve">x notice</command>
     <result xml:space="preserve">There is a picture of a man with short grey hair and a five o&apos;clock shadow. Above the picture, it says &quot;Wanted: Jacob Smith.&quot;
 
@@ -186,10 +612,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf380" />
+      <child nodeId="node-0x6d224f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf380">
+  <item nodeId="node-0x6d224f0">
     <command xml:space="preserve">x mna</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -198,10 +624,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf700" />
+      <child nodeId="node-0x6d22560" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf700">
+  <item nodeId="node-0x6d22560">
     <command xml:space="preserve">x man</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -210,10 +636,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf770" />
+      <child nodeId="node-0x6d225d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf770">
+  <item nodeId="node-0x6d225d0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">Elegant, black, leather shoes. They have laces.
 
@@ -222,10 +648,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf7e0" />
+      <child nodeId="node-0x6d22640" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf7e0">
+  <item nodeId="node-0x6d22640">
     <command xml:space="preserve">x laces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -234,10 +660,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf850" />
+      <child nodeId="node-0x6d226b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf850">
+  <item nodeId="node-0x6d226b0">
     <command xml:space="preserve">x thumbtack</command>
     <result xml:space="preserve">A long, sharp red thumbtack.
 
@@ -246,10 +672,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf8c0" />
+      <child nodeId="node-0x6d22720" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf8c0">
+  <item nodeId="node-0x6d22720">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">Notice: Taken.
 Thumbtack: Taken.
@@ -260,10 +686,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf930" />
+      <child nodeId="node-0x6d22790" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf930">
+  <item nodeId="node-0x6d22790">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 It seems to be locked.
@@ -273,10 +699,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf5d0" />
+      <child nodeId="node-0x6d22800" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf5d0">
+  <item nodeId="node-0x6d22800">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -285,10 +711,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf620" />
+      <child nodeId="node-0x6d21ec0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf620">
+  <item nodeId="node-0x6d21ec0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -297,10 +723,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfb20" />
+      <child nodeId="node-0x6d21f30" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfb20">
+  <item nodeId="node-0x6d21f30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -324,10 +750,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfb90" />
+      <child nodeId="node-0x6d21fa0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfb90">
+  <item nodeId="node-0x6d21fa0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -337,10 +763,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfc00" />
+      <child nodeId="node-0x6d22010" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfc00">
+  <item nodeId="node-0x6d22010">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">interrogation room
 It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
@@ -352,10 +778,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfc70" />
+      <child nodeId="node-0x6d22080" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfc70">
+  <item nodeId="node-0x6d22080">
     <command xml:space="preserve">take backdoor</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -364,10 +790,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfce0" />
+      <child nodeId="node-0x6d22870" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfce0">
+  <item nodeId="node-0x6d22870">
     <command xml:space="preserve">x bulletin board</command>
     <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
 
@@ -376,10 +802,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfd50" />
+      <child nodeId="node-0x6d228e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfd50">
+  <item nodeId="node-0x6d228e0">
     <command xml:space="preserve">take belt</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -388,10 +814,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfdc0" />
+      <child nodeId="node-0x6d22950" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfdc0">
+  <item nodeId="node-0x6d22950">
     <command xml:space="preserve">turn off light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -400,10 +826,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfe30" />
+      <child nodeId="node-0x6d229c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfe30">
+  <item nodeId="node-0x6d229c0">
     <command xml:space="preserve">x light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -412,10 +838,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfea0" />
+      <child nodeId="node-0x6d22a30" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfea0">
+  <item nodeId="node-0x6d22a30">
     <command xml:space="preserve">x switch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -424,10 +850,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcff10" />
+      <child nodeId="node-0x6d22aa0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcff10">
+  <item nodeId="node-0x6d22aa0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Shoes
@@ -439,10 +865,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcff80" />
+      <child nodeId="node-0x6d22b10" />
     </children>
   </item>
-  <item nodeId="node-0x6dcff80">
+  <item nodeId="node-0x6d22b10">
     <command xml:space="preserve">put on shoes</command>
     <result xml:space="preserve">Your feet ache really bad right now. One of the last things you want to do now is wear those uncomfortable things.
 
@@ -451,10 +877,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcf9a0" />
+      <child nodeId="node-0x6d22b80" />
     </children>
   </item>
-  <item nodeId="node-0x6dcf9a0">
+  <item nodeId="node-0x6d22b80">
     <command xml:space="preserve">read notice</command>
     <result xml:space="preserve">There is a picture of a man with short grey hair and a five o&apos;clock shadow. Above the picture, it says &quot;Wanted: Jacob Smith.&quot;
 
@@ -463,10 +889,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfa10" />
+      <child nodeId="node-0x6d22bf0" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfa10">
+  <item nodeId="node-0x6d22bf0">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -475,10 +901,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfa80" />
+      <child nodeId="node-0x6d22c60" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfa80">
+  <item nodeId="node-0x6d22c60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -487,10 +913,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0230" />
+      <child nodeId="node-0x6d22cd0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0230">
+  <item nodeId="node-0x6d22cd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -499,10 +925,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd02a0" />
+      <child nodeId="node-0x6d22d40" />
     </children>
   </item>
-  <item nodeId="node-0x6dd02a0">
+  <item nodeId="node-0x6d22d40">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -511,10 +937,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0310" />
+      <child nodeId="node-0x6d22db0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0310">
+  <item nodeId="node-0x6d22db0">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -523,10 +949,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0380" />
+      <child nodeId="node-0x6d22e20" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0380">
+  <item nodeId="node-0x6d22e20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 It seems to be locked.
@@ -536,10 +962,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd03f0" />
+      <child nodeId="node-0x6d22e90" />
     </children>
   </item>
-  <item nodeId="node-0x6dd03f0">
+  <item nodeId="node-0x6d22e90">
     <command xml:space="preserve">open backdoor</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -548,10 +974,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0460" />
+      <child nodeId="node-0x6d22f00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0460">
+  <item nodeId="node-0x6d22f00">
     <command xml:space="preserve">unlock backdoor</command>
     <result xml:space="preserve">What do you want to unlock Backdoor with?
 
@@ -560,10 +986,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd04d0" />
+      <child nodeId="node-0x6d22f70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd04d0">
+  <item nodeId="node-0x6d22f70">
     <command xml:space="preserve">thumbtack</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -572,10 +998,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0540" />
+      <child nodeId="node-0x6d22fe0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0540">
+  <item nodeId="node-0x6d22fe0">
     <command xml:space="preserve">unlock backdoor with shoes</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -584,10 +1010,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd05b0" />
+      <child nodeId="node-0x6d23050" />
     </children>
   </item>
-  <item nodeId="node-0x6dd05b0">
+  <item nodeId="node-0x6d23050">
     <command xml:space="preserve">unlock backdoor with notice</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -596,10 +1022,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0620" />
+      <child nodeId="node-0x6d230c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0620">
+  <item nodeId="node-0x6d230c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Shoes
@@ -611,10 +1037,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0690" />
+      <child nodeId="node-0x6d23130" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0690">
+  <item nodeId="node-0x6d23130">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">interrogation room
 It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
@@ -626,10 +1052,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0700" />
+      <child nodeId="node-0x6d231a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0700">
+  <item nodeId="node-0x6d231a0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">Elegant, black, leather shoes. They have laces.
 
@@ -638,10 +1064,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0770" />
+      <child nodeId="node-0x6d23210" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0770">
+  <item nodeId="node-0x6d23210">
     <command xml:space="preserve">take laces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -650,10 +1076,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd07e0" />
+      <child nodeId="node-0x6d23280" />
     </children>
   </item>
-  <item nodeId="node-0x6dd07e0">
+  <item nodeId="node-0x6d23280">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -662,10 +1088,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0850" />
+      <child nodeId="node-0x6d232f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0850">
+  <item nodeId="node-0x6d232f0">
     <command xml:space="preserve">x metal door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -674,10 +1100,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd08c0" />
+      <child nodeId="node-0x6d23360" />
     </children>
   </item>
-  <item nodeId="node-0x6dd08c0">
+  <item nodeId="node-0x6d23360">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -701,10 +1127,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0930" />
+      <child nodeId="node-0x6d233d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0930">
+  <item nodeId="node-0x6d233d0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -714,10 +1140,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dcfff0" />
+      <child nodeId="node-0x6d23440" />
     </children>
   </item>
-  <item nodeId="node-0x6dcfff0">
+  <item nodeId="node-0x6d23440">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 It seems to be locked.
@@ -727,10 +1153,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0060" />
+      <child nodeId="node-0x6d234b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0060">
+  <item nodeId="node-0x6d234b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -754,10 +1180,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd00d0" />
+      <child nodeId="node-0x6d23520" />
     </children>
   </item>
-  <item nodeId="node-0x6dd00d0">
+  <item nodeId="node-0x6d23520">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -767,10 +1193,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0140" />
+      <child nodeId="node-0x6d23590" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0140">
+  <item nodeId="node-0x6d23590">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">interrogation room
 It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
@@ -782,10 +1208,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd01b0" />
+      <child nodeId="node-0x6d23600" />
     </children>
   </item>
-  <item nodeId="node-0x6dd01b0">
+  <item nodeId="node-0x6d23600">
     <command xml:space="preserve">x light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -794,10 +1220,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd09a0" />
+      <child nodeId="node-0x6d23670" />
     </children>
   </item>
-  <item nodeId="node-0x6dd09a0">
+  <item nodeId="node-0x6d23670">
     <command xml:space="preserve">x bright</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -806,10 +1232,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0a10" />
+      <child nodeId="node-0x6d236e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0a10">
+  <item nodeId="node-0x6d236e0">
     <command xml:space="preserve">throw thumbtack</command>
     <result xml:space="preserve">Dropped.
 
@@ -818,10 +1244,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0a80" />
+      <child nodeId="node-0x6d23750" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0a80">
+  <item nodeId="node-0x6d23750">
     <command xml:space="preserve">take thumbtack</command>
     <result xml:space="preserve">Taken.
 
@@ -830,10 +1256,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0af0" />
+      <child nodeId="node-0x6d237c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0af0">
+  <item nodeId="node-0x6d237c0">
     <command xml:space="preserve">cover light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -842,10 +1268,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0b60" />
+      <child nodeId="node-0x6d23830" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0b60">
+  <item nodeId="node-0x6d23830">
     <command xml:space="preserve">take notics</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -854,10 +1280,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0bd0" />
+      <child nodeId="node-0x6d238a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0bd0">
+  <item nodeId="node-0x6d238a0">
     <command xml:space="preserve">put notice on light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -866,10 +1292,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0c40" />
+      <child nodeId="node-0x6d23910" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0c40">
+  <item nodeId="node-0x6d23910">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -878,10 +1304,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0cb0" />
+      <child nodeId="node-0x6d23980" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0cb0">
+  <item nodeId="node-0x6d23980">
     <command xml:space="preserve">unlock backdoor</command>
     <result xml:space="preserve">What do you want to unlock Backdoor with?
 
@@ -890,10 +1316,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0d20" />
+      <child nodeId="node-0x6d239f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0d20">
+  <item nodeId="node-0x6d239f0">
     <command xml:space="preserve">thumbtack</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -902,10 +1328,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0d90" />
+      <child nodeId="node-0x6d23a60" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0d90">
+  <item nodeId="node-0x6d23a60">
     <command xml:space="preserve">x backdoor</command>
     <result xml:space="preserve">You see nothing special about Backdoor.
 
@@ -914,10 +1340,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0e00" />
+      <child nodeId="node-0x6d23ad0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0e00">
+  <item nodeId="node-0x6d23ad0">
     <command xml:space="preserve">x metal door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -926,10 +1352,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0e70" />
+      <child nodeId="node-0x6d23b40" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0e70">
+  <item nodeId="node-0x6d23b40">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -938,10 +1364,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0ee0" />
+      <child nodeId="node-0x6d23bb0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0ee0">
+  <item nodeId="node-0x6d23bb0">
     <command xml:space="preserve">x thumbtack</command>
     <result xml:space="preserve">A long, sharp red thumbtack.
 
@@ -950,10 +1376,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0f50" />
+      <child nodeId="node-0x6d23c20" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0f50">
+  <item nodeId="node-0x6d23c20">
     <command xml:space="preserve">attack door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -962,10 +1388,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd0fc0" />
+      <child nodeId="node-0x6d23c90" />
     </children>
   </item>
-  <item nodeId="node-0x6dd0fc0">
+  <item nodeId="node-0x6d23c90">
     <command xml:space="preserve">attack backdoor</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -974,10 +1400,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1030" />
+      <child nodeId="node-0x6d23d00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1030">
+  <item nodeId="node-0x6d23d00">
     <command xml:space="preserve">attack me</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -986,10 +1412,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd10a0" />
+      <child nodeId="node-0x6d23d70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd10a0">
+  <item nodeId="node-0x6d23d70">
     <command xml:space="preserve">stab door</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -998,10 +1424,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1110" />
+      <child nodeId="node-0x6d23de0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1110">
+  <item nodeId="node-0x6d23de0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1010,10 +1436,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1180" />
+      <child nodeId="node-0x6d23e50" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1180">
+  <item nodeId="node-0x6d23e50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1022,10 +1448,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd11f0" />
+      <child nodeId="node-0x6d23ec0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd11f0">
+  <item nodeId="node-0x6d23ec0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 It seems to be locked.
@@ -1035,10 +1461,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1260" />
+      <child nodeId="node-0x6d23f30" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1260">
+  <item nodeId="node-0x6d23f30">
     <command xml:space="preserve">put thumbtack on light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1047,10 +1473,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd12d0" />
+      <child nodeId="node-0x6d23fa0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd12d0">
+  <item nodeId="node-0x6d23fa0">
     <command xml:space="preserve">kick door</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1059,10 +1485,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1340" />
+      <child nodeId="node-0x6d24010" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1340">
+  <item nodeId="node-0x6d24010">
     <command xml:space="preserve">push door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1071,10 +1497,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd13b0" />
+      <child nodeId="node-0x6d24080" />
     </children>
   </item>
-  <item nodeId="node-0x6dd13b0">
+  <item nodeId="node-0x6d24080">
     <command xml:space="preserve">attack door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1083,10 +1509,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1420" />
+      <child nodeId="node-0x6d240f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1420">
+  <item nodeId="node-0x6d240f0">
     <command xml:space="preserve">jump</command>
     <result xml:space="preserve">You jump on the spot, fruitlessly.
 
@@ -1095,10 +1521,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1490" />
+      <child nodeId="node-0x6d24160" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1490">
+  <item nodeId="node-0x6d24160">
     <command xml:space="preserve">sleep</command>
     <result xml:space="preserve">You aren&apos;t feeling especially drowsy.
 
@@ -1107,10 +1533,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1500" />
+      <child nodeId="node-0x6d241d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1500">
+  <item nodeId="node-0x6d241d0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Thumbtack
@@ -1122,10 +1548,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1570" />
+      <child nodeId="node-0x6d24240" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1570">
+  <item nodeId="node-0x6d24240">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">interrogation room
 It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
@@ -1137,10 +1563,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd15e0" />
+      <child nodeId="node-0x6d242b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd15e0">
+  <item nodeId="node-0x6d242b0">
     <command xml:space="preserve">x bulletin door</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine Bulletin board.
 
@@ -1149,10 +1575,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1650" />
+      <child nodeId="node-0x6d24320" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1650">
+  <item nodeId="node-0x6d24320">
     <command xml:space="preserve">x bulletin</command>
     <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
 
@@ -1161,10 +1587,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd16c0" />
+      <child nodeId="node-0x6d24390" />
     </children>
   </item>
-  <item nodeId="node-0x6dd16c0">
+  <item nodeId="node-0x6d24390">
     <command xml:space="preserve">x board</command>
     <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
 
@@ -1173,10 +1599,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1730" />
+      <child nodeId="node-0x6d24400" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1730">
+  <item nodeId="node-0x6d24400">
     <command xml:space="preserve">x notice</command>
     <result xml:space="preserve">There is a picture of a man with short grey hair and a five o&apos;clock shadow. Above the picture, it says &quot;Wanted: Jacob Smith.&quot;
 
@@ -1185,10 +1611,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd17a0" />
+      <child nodeId="node-0x6d24470" />
     </children>
   </item>
-  <item nodeId="node-0x6dd17a0">
+  <item nodeId="node-0x6d24470">
     <command xml:space="preserve">x picture</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1197,10 +1623,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1810" />
+      <child nodeId="node-0x6d244e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1810">
+  <item nodeId="node-0x6d244e0">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -1209,10 +1635,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1880" />
+      <child nodeId="node-0x6d24550" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1880">
+  <item nodeId="node-0x6d24550">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -1236,10 +1662,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd18f0" />
+      <child nodeId="node-0x6d245c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd18f0">
+  <item nodeId="node-0x6d245c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1249,10 +1675,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1960" />
+      <child nodeId="node-0x6d24630" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1960">
+  <item nodeId="node-0x6d24630">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -1262,10 +1688,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd19d0" />
+      <child nodeId="node-0x6d246a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd19d0">
+  <item nodeId="node-0x6d246a0">
     <command xml:space="preserve">x hallway</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1274,10 +1700,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1a40" />
+      <child nodeId="node-0x6d24710" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1a40">
+  <item nodeId="node-0x6d24710">
     <command xml:space="preserve">x officer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1286,10 +1712,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1ab0" />
+      <child nodeId="node-0x6d24780" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1ab0">
+  <item nodeId="node-0x6d24780">
     <command xml:space="preserve">throw thumbtack into hallway</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1298,10 +1724,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1b20" />
+      <child nodeId="node-0x6d247f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1b20">
+  <item nodeId="node-0x6d247f0">
     <command xml:space="preserve">throw thumbtack at guard</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1310,10 +1736,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1b90" />
+      <child nodeId="node-0x6d24860" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1b90">
+  <item nodeId="node-0x6d24860">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">interrogation room
 It is very bright in here. There is a bulletin board in the back. in the corner are shoes and a belt. to the north is the hallway. A metal door to another room is to the east.
@@ -1325,10 +1751,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1c00" />
+      <child nodeId="node-0x6d248d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1c00">
+  <item nodeId="node-0x6d248d0">
     <command xml:space="preserve">x light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1337,10 +1763,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1c70" />
+      <child nodeId="node-0x6d24940" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1c70">
+  <item nodeId="node-0x6d24940">
     <command xml:space="preserve">x up</command>
     <result xml:space="preserve">You see nothing unexpected in that direction.
 
@@ -1349,10 +1775,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1ce0" />
+      <child nodeId="node-0x6d249b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1ce0">
+  <item nodeId="node-0x6d249b0">
     <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1361,10 +1787,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1d50" />
+      <child nodeId="node-0x6d24a20" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1d50">
+  <item nodeId="node-0x6d24a20">
     <command xml:space="preserve">x ceiling</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1373,10 +1799,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1dc0" />
+      <child nodeId="node-0x6d24a90" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1dc0">
+  <item nodeId="node-0x6d24a90">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1385,10 +1811,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1e30" />
+      <child nodeId="node-0x6d24b00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1e30">
+  <item nodeId="node-0x6d24b00">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -1396,10 +1822,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1ea0" />
+      <child nodeId="node-0x6d24b70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1ea0">
+  <item nodeId="node-0x6d24b70">
     <command xml:space="preserve">combine thumbtack</command>
     <result xml:space="preserve">(with Shoelaces)
 &gt;</result>
@@ -1407,20 +1833,20 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1f10" />
+      <child nodeId="node-0x6d24be0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1f10">
+  <item nodeId="node-0x6d24be0">
     <command xml:space="preserve">combine thumbtack with shoelaces</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1f80" />
+      <child nodeId="node-0x6d24c50" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1f80">
+  <item nodeId="node-0x6d24c50">
     <command xml:space="preserve">combine shoelaves with thumbtack</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1429,10 +1855,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd1ff0" />
+      <child nodeId="node-0x6d24cc0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd1ff0">
+  <item nodeId="node-0x6d24cc0">
     <command xml:space="preserve">unlock door with lockpick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1441,10 +1867,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2060" />
+      <child nodeId="node-0x6d24d30" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2060">
+  <item nodeId="node-0x6d24d30">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a lockpick.
 
@@ -1453,10 +1879,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd20d0" />
+      <child nodeId="node-0x6d24da0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd20d0">
+  <item nodeId="node-0x6d24da0">
     <command xml:space="preserve">unlock backdoor with thumbtack</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1465,10 +1891,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2140" />
+      <child nodeId="node-0x6d24e10" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2140">
+  <item nodeId="node-0x6d24e10">
     <command xml:space="preserve">unlock back door with lockpick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1477,10 +1903,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd21b0" />
+      <child nodeId="node-0x6d24e80" />
     </children>
   </item>
-  <item nodeId="node-0x6dd21b0">
+  <item nodeId="node-0x6d24e80">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a lockpick
@@ -1491,10 +1917,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2220" />
+      <child nodeId="node-0x6d24ef0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2220">
+  <item nodeId="node-0x6d24ef0">
     <command xml:space="preserve">unlock backdoor with lockpick</command>
     <result xml:space="preserve">You unlock Backdoor.
 
@@ -1503,10 +1929,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2290" />
+      <child nodeId="node-0x6d24f60" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2290">
+  <item nodeId="node-0x6d24f60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 
@@ -1520,10 +1946,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2300" />
+      <child nodeId="node-0x6d24fd0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2300">
+  <item nodeId="node-0x6d24fd0">
     <command xml:space="preserve">x surveillance system</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1532,10 +1958,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2370" />
+      <child nodeId="node-0x6d25040" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2370">
+  <item nodeId="node-0x6d25040">
     <command xml:space="preserve">x white cabinet</command>
     <result xml:space="preserve">A white cabinet. There&apos;s probably files inside.
 
@@ -1544,10 +1970,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd23e0" />
+      <child nodeId="node-0x6d250b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd23e0">
+  <item nodeId="node-0x6d250b0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open White Cabinet, revealing Files.
 
@@ -1556,10 +1982,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2450" />
+      <child nodeId="node-0x6d25120" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2450">
+  <item nodeId="node-0x6d25120">
     <command xml:space="preserve">take cabinet</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -1568,10 +1994,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd24c0" />
+      <child nodeId="node-0x6d25190" />
     </children>
   </item>
-  <item nodeId="node-0x6dd24c0">
+  <item nodeId="node-0x6d25190">
     <command xml:space="preserve">take files</command>
     <result xml:space="preserve">Taken.
 
@@ -1580,10 +2006,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2530" />
+      <child nodeId="node-0x6d25200" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2530">
+  <item nodeId="node-0x6d25200">
     <command xml:space="preserve">x closet</command>
     <result xml:space="preserve">A large wooden closet. It looks pretty busted up.
 
@@ -1592,10 +2018,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd25a0" />
+      <child nodeId="node-0x6d25270" />
     </children>
   </item>
-  <item nodeId="node-0x6dd25a0">
+  <item nodeId="node-0x6d25270">
     <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1604,10 +2030,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2610" />
+      <child nodeId="node-0x6d252e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2610">
+  <item nodeId="node-0x6d252e0">
     <command xml:space="preserve">take closet</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -1616,10 +2042,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2680" />
+      <child nodeId="node-0x6d25350" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2680">
+  <item nodeId="node-0x6d25350">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
 
@@ -1628,10 +2054,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd26f0" />
+      <child nodeId="node-0x6d253c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd26f0">
+  <item nodeId="node-0x6d253c0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">Guard uniform: Taken.
 Pistol: Taken.
@@ -1641,10 +2067,10 @@ Pistol: Taken.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2760" />
+      <child nodeId="node-0x6d25430" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2760">
+  <item nodeId="node-0x6d25430">
     <command xml:space="preserve">put on uniform</command>
     <result xml:space="preserve">You put on Guard uniform.
 
@@ -1653,10 +2079,10 @@ Pistol: Taken.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd27d0" />
+      <child nodeId="node-0x6d254a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd27d0">
+  <item nodeId="node-0x6d254a0">
     <command xml:space="preserve">put on pistol</command>
     <result xml:space="preserve">You can&apos;t wear that!
 
@@ -1665,10 +2091,10 @@ Pistol: Taken.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2840" />
+      <child nodeId="node-0x6d25510" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2840">
+  <item nodeId="node-0x6d25510">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 interrogation room
@@ -1681,10 +2107,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd28b0" />
+      <child nodeId="node-0x6d25580" />
     </children>
   </item>
-  <item nodeId="node-0x6dd28b0">
+  <item nodeId="node-0x6d25580">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -1697,10 +2123,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2920" />
+      <child nodeId="node-0x6d255f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2920">
+  <item nodeId="node-0x6d255f0">
     <command xml:space="preserve">attack officer</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -1709,10 +2135,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2990" />
+      <child nodeId="node-0x6d25660" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2990">
+  <item nodeId="node-0x6d25660">
     <command xml:space="preserve">shoot officer</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1721,22 +2147,44 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd2a00">
+  <item nodeId="node-0x6d256d0">
     <command xml:space="preserve">take shoes</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="125">YES</temporary>
+    <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2d80" />
-      <child nodeId="node-0x6dd2ae0" />
-      <child nodeId="node-0x6dd2ca0" />
-      <child nodeId="node-0x6dd2a70" />
+      <child nodeId="node-0x6d25ac0" />
+      <child nodeId="node-0x6d25890" />
+      <child nodeId="node-0x6d25a50" />
+      <child nodeId="node-0x6d25820" />
+      <child nodeId="node-0x6d25740" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2a70">
+  <item nodeId="node-0x6d25740">
+    <command xml:space="preserve">x bulletin board</command>
+    <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d257b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d257b0">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">A dull, beige desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x6d25820">
     <command xml:space="preserve">x shoelaces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1745,7 +2193,7 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="124">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd2ca0">
+  <item nodeId="node-0x6d25a50">
     <command xml:space="preserve">remove shoelaces from shoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1753,21 +2201,8 @@ You can see Officer here.
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x6dd2d10" />
-    </children>
   </item>
-  <item nodeId="node-0x6dd2d10">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Notice: Taken.
-Thumbtack: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x6dd2ae0">
+  <item nodeId="node-0x6d25890">
     <command xml:space="preserve">take thumbtack</command>
     <result xml:space="preserve">Taken.
 
@@ -1776,10 +2211,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2b50" />
+      <child nodeId="node-0x6d25900" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2b50">
+  <item nodeId="node-0x6d25900">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -1787,10 +2222,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2bc0" />
+      <child nodeId="node-0x6d25970" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2bc0">
+  <item nodeId="node-0x6d25970">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack
 &gt;</result>
@@ -1798,10 +2233,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2c30" />
+      <child nodeId="node-0x6d259e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2c30">
+  <item nodeId="node-0x6d259e0">
     <command xml:space="preserve">x thumbtack</command>
     <result xml:space="preserve">A thumbtack with shoelace tied around it.
 
@@ -1810,7 +2245,7 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd2d80">
+  <item nodeId="node-0x6d25ac0">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You&apos;re not wearing that.
 
@@ -1819,10 +2254,10 @@ Thumbtack: Taken.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2df0" />
+      <child nodeId="node-0x6d25b30" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2df0">
+  <item nodeId="node-0x6d25b30">
     <command xml:space="preserve">remove shoelaces from shoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1830,36 +2265,154 @@ Thumbtack: Taken.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x6dd2e60" />
-    </children>
   </item>
-  <item nodeId="node-0x6dd2e60">
-    <command xml:space="preserve">take shoelaces</command>
-    <result xml:space="preserve">You already have that.
+  <item nodeId="node-0x6d25ba0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Shoes: Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d269a0" />
+      <child nodeId="node-0x6d260e0" />
+      <child nodeId="node-0x6d26070" />
+      <child nodeId="node-0x6d25c10" />
+    </children>
   </item>
-  <item nodeId="node-0x6dd5470">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Notice: Taken.
-Thumbtack: Taken.
-Shoes: Taken.
+  <item nodeId="node-0x6d25c10">
+    <command xml:space="preserve">remove shoes</command>
+    <result xml:space="preserve">You&apos;re not wearing that.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="111">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6350" />
-      <child nodeId="node-0x6dd5da0" />
-      <child nodeId="node-0x6dd54e0" />
+      <child nodeId="node-0x6d25c80" />
     </children>
   </item>
-  <item nodeId="node-0x6dd54e0">
+  <item nodeId="node-0x6d25c80">
+    <command xml:space="preserve">remove shoelaces</command>
+    <result xml:space="preserve">You remove shoelaces from shoes
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25cf0">
+    <command xml:space="preserve">combine shoelaces with thumbtack</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25d60">
+    <command xml:space="preserve">x bulletin board</command>
+    <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25dd0">
+    <command xml:space="preserve">take thumbtack</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25e40">
+    <command xml:space="preserve">combine shoelaces with thumbtack</command>
+    <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a make shift lockpick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25eb0">
+    <command xml:space="preserve">unlock door with lockpick</command>
+    <result xml:space="preserve">You unlock Metal door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25f20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Metal door)
+
+surveillance room
+This is where it seems someone was observing you while in the interrogation room. There is a surveillance system monitoring various rooms. In the corner of the room is a white cabinet. There is a closet against the wall. To the west is lab.
+
+You can see Metal door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d25f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d25f90">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d26000" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d26000">
+    <command xml:space="preserve">take guard uniform</command>
+    <result xml:space="preserve">As you take the guard uniform, you can see a mirror. You look at your face and see a giant scar above your right eye and your untrimmed five o&quot; clock shadow. Wait a second… You are Jacob Smith!!!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+  </item>
+  <item nodeId="node-0x6d26070">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">interrogation room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+  </item>
+  <item nodeId="node-0x6d260e0">
     <command xml:space="preserve">remove shoelaces from shoes</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -1867,10 +2420,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5550" />
+      <child nodeId="node-0x6d26150" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5550">
+  <item nodeId="node-0x6d26150">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1879,20 +2432,20 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd55c0" />
+      <child nodeId="node-0x6d261c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd55c0">
+  <item nodeId="node-0x6d261c0">
     <command xml:space="preserve">combine thumbtack with shoelaces</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5630" />
+      <child nodeId="node-0x6d26230" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5630">
+  <item nodeId="node-0x6d26230">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1901,20 +2454,20 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd56a0" />
+      <child nodeId="node-0x6d262a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd56a0">
+  <item nodeId="node-0x6d262a0">
     <command xml:space="preserve">combine thumbtack with shoelaces</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5710" />
+      <child nodeId="node-0x6d26310" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5710">
+  <item nodeId="node-0x6d26310">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1923,10 +2476,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5780" />
+      <child nodeId="node-0x6d26380" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5780">
+  <item nodeId="node-0x6d26380">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1935,10 +2488,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd57f0" />
+      <child nodeId="node-0x6d263f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd57f0">
+  <item nodeId="node-0x6d263f0">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a lockpick.
 
@@ -1947,10 +2500,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5860" />
+      <child nodeId="node-0x6d26460" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5860">
+  <item nodeId="node-0x6d26460">
     <command xml:space="preserve">use lockpick on door</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1959,10 +2512,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd58d0" />
+      <child nodeId="node-0x6d264d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd58d0">
+  <item nodeId="node-0x6d264d0">
     <command xml:space="preserve">unlock door with lockpick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1971,10 +2524,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5940" />
+      <child nodeId="node-0x6d26540" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5940">
+  <item nodeId="node-0x6d26540">
     <command xml:space="preserve">unlock backdoor with lockpick</command>
     <result xml:space="preserve">You unlock Backdoor.
 
@@ -1983,10 +2536,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd59b0" />
+      <child nodeId="node-0x6d265b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd59b0">
+  <item nodeId="node-0x6d265b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 
@@ -2000,10 +2553,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5a20" />
+      <child nodeId="node-0x6d26620" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5a20">
+  <item nodeId="node-0x6d26620">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -2012,10 +2565,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5a90" />
+      <child nodeId="node-0x6d26690" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5a90">
+  <item nodeId="node-0x6d26690">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
 
@@ -2024,10 +2577,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5b00" />
+      <child nodeId="node-0x6d26700" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5b00">
+  <item nodeId="node-0x6d26700">
     <command xml:space="preserve">take guard uniform</command>
     <result xml:space="preserve">Taken.
 
@@ -2036,10 +2589,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5b70" />
+      <child nodeId="node-0x6d26770" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5b70">
+  <item nodeId="node-0x6d26770">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 interrogation room
@@ -2052,10 +2605,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5be0" />
+      <child nodeId="node-0x6d267e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5be0">
+  <item nodeId="node-0x6d267e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2079,10 +2632,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5c50" />
+      <child nodeId="node-0x6d26850" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5c50">
+  <item nodeId="node-0x6d26850">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -2092,10 +2645,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5cc0" />
+      <child nodeId="node-0x6d268c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5cc0">
+  <item nodeId="node-0x6d268c0">
     <command xml:space="preserve">wear guard uniform</command>
     <result xml:space="preserve">You put on Guard uniform.
 
@@ -2104,10 +2657,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5d30" />
+      <child nodeId="node-0x6d26930" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5d30">
+  <item nodeId="node-0x6d26930">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2120,7 +2673,7 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="71">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd5da0">
+  <item nodeId="node-0x6d269a0">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -2128,20 +2681,20 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5e10" />
+      <child nodeId="node-0x6d26a10" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5e10">
+  <item nodeId="node-0x6d26a10">
     <command xml:space="preserve">combine thumbtack with shoelaces</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5e80" />
+      <child nodeId="node-0x6d26a80" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5e80">
+  <item nodeId="node-0x6d26a80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2150,10 +2703,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5ef0" />
+      <child nodeId="node-0x6d26af0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5ef0">
+  <item nodeId="node-0x6d26af0">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a lockpick.
 
@@ -2162,10 +2715,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5f60" />
+      <child nodeId="node-0x6d26b60" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5f60">
+  <item nodeId="node-0x6d26b60">
     <command xml:space="preserve">unlock backdoor with lockpick</command>
     <result xml:space="preserve">You unlock Backdoor.
 
@@ -2174,10 +2727,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5fd0" />
+      <child nodeId="node-0x6d26bd0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5fd0">
+  <item nodeId="node-0x6d26bd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 
@@ -2191,10 +2744,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6040" />
+      <child nodeId="node-0x6d26c40" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6040">
+  <item nodeId="node-0x6d26c40">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
 
@@ -2203,10 +2756,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd60b0" />
+      <child nodeId="node-0x6d26cb0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd60b0">
+  <item nodeId="node-0x6d26cb0">
     <command xml:space="preserve">take guard uniform</command>
     <result xml:space="preserve">Taken.
 
@@ -2215,10 +2768,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6120" />
+      <child nodeId="node-0x6d26d20" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6120">
+  <item nodeId="node-0x6d26d20">
     <command xml:space="preserve">wear shoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2227,10 +2780,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6190" />
+      <child nodeId="node-0x6d26d90" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6190">
+  <item nodeId="node-0x6d26d90">
     <command xml:space="preserve">wear guard uniform</command>
     <result xml:space="preserve">You put on Guard uniform.
 
@@ -2239,10 +2792,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6200" />
+      <child nodeId="node-0x6d26e00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6200">
+  <item nodeId="node-0x6d26e00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 interrogation room
@@ -2255,10 +2808,10 @@ You can see Backdoor here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6270" />
+      <child nodeId="node-0x6d26e70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6270">
+  <item nodeId="node-0x6d26e70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2271,10 +2824,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd62e0" />
+      <child nodeId="node-0x6d26ee0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd62e0">
+  <item nodeId="node-0x6d26ee0">
     <command xml:space="preserve">talke to hallway</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2283,17 +2836,7 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="110">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd6350">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">interrogation room
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-  </item>
-  <item nodeId="node-0x6dd63c0">
+  <item nodeId="node-0x6d26f50">
     <command xml:space="preserve">take thumbtack</command>
     <result xml:space="preserve">Taken.
 
@@ -2302,10 +2845,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6430" />
+      <child nodeId="node-0x6d26fc0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6430">
+  <item nodeId="node-0x6d26fc0">
     <command xml:space="preserve">take shoes</command>
     <result xml:space="preserve">Taken.
 
@@ -2314,10 +2857,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd64a0" />
+      <child nodeId="node-0x6d27030" />
     </children>
   </item>
-  <item nodeId="node-0x6dd64a0">
+  <item nodeId="node-0x6d27030">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -2325,10 +2868,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6510" />
+      <child nodeId="node-0x6d270a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6510">
+  <item nodeId="node-0x6d270a0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2337,10 +2880,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6580" />
+      <child nodeId="node-0x6d27110" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6580">
+  <item nodeId="node-0x6d27110">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a lockpick.
 
@@ -2349,10 +2892,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd65f0" />
+      <child nodeId="node-0x6d27180" />
     </children>
   </item>
-  <item nodeId="node-0x6dd65f0">
+  <item nodeId="node-0x6d27180">
     <command xml:space="preserve">x lockpick</command>
     <result xml:space="preserve">A lockpick made with a shoelace and a thumbtack. True class right there.
 
@@ -2361,10 +2904,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6660" />
+      <child nodeId="node-0x6d271f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6660">
+  <item nodeId="node-0x6d271f0">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2373,10 +2916,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd66d0" />
+      <child nodeId="node-0x6d27260" />
     </children>
   </item>
-  <item nodeId="node-0x6dd66d0">
+  <item nodeId="node-0x6d27260">
     <command xml:space="preserve">unlock backdoor with shoelaces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2385,10 +2928,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6740" />
+      <child nodeId="node-0x6d272d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6740">
+  <item nodeId="node-0x6d272d0">
     <command xml:space="preserve">unlock back door with lockpick</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2397,10 +2940,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd67b0" />
+      <child nodeId="node-0x6d27340" />
     </children>
   </item>
-  <item nodeId="node-0x6dd67b0">
+  <item nodeId="node-0x6d27340">
     <command xml:space="preserve">unlock backdoor with lockpick</command>
     <result xml:space="preserve">You unlock Backdoor.
 
@@ -2409,10 +2952,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6820" />
+      <child nodeId="node-0x6d273b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6820">
+  <item nodeId="node-0x6d273b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Backdoor)
 
@@ -2426,11 +2969,11 @@ You can see Backdoor here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd71c0" />
-      <child nodeId="node-0x6dd6890" />
+      <child nodeId="node-0x6d27d50" />
+      <child nodeId="node-0x6d27420" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6890">
+  <item nodeId="node-0x6d27420">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
 
@@ -2439,10 +2982,10 @@ You can see Backdoor here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6900" />
+      <child nodeId="node-0x6d27490" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6900">
+  <item nodeId="node-0x6d27490">
     <command xml:space="preserve">take guard uniform</command>
     <result xml:space="preserve">Taken.
 
@@ -2451,11 +2994,11 @@ You can see Backdoor here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6f90" />
-      <child nodeId="node-0x6dd6970" />
+      <child nodeId="node-0x6d27b20" />
+      <child nodeId="node-0x6d27500" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6970">
+  <item nodeId="node-0x6d27500">
     <command xml:space="preserve">x closet</command>
     <result xml:space="preserve">A large wooden closet. It looks pretty busted up.
 
@@ -2466,10 +3009,10 @@ In Closet is Pistol.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd69e0" />
+      <child nodeId="node-0x6d27570" />
     </children>
   </item>
-  <item nodeId="node-0x6dd69e0">
+  <item nodeId="node-0x6d27570">
     <command xml:space="preserve">wear guard uniform</command>
     <result xml:space="preserve">You put on Guard uniform.
 
@@ -2478,10 +3021,10 @@ In Closet is Pistol.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6a50" />
+      <child nodeId="node-0x6d275e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6a50">
+  <item nodeId="node-0x6d275e0">
     <command xml:space="preserve">wear uniform</command>
     <result xml:space="preserve">You&apos;re already wearing that!
 
@@ -2490,10 +3033,10 @@ In Closet is Pistol.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6ac0" />
+      <child nodeId="node-0x6d27650" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6ac0">
+  <item nodeId="node-0x6d27650">
     <command xml:space="preserve">wear guard uniform</command>
     <result xml:space="preserve">You&apos;re already wearing that!
 
@@ -2502,11 +3045,11 @@ In Closet is Pistol.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6c10" />
-      <child nodeId="node-0x6dd6b30" />
+      <child nodeId="node-0x6d277a0" />
+      <child nodeId="node-0x6d276c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6b30">
+  <item nodeId="node-0x6d276c0">
     <command xml:space="preserve">kill yourself</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -2515,10 +3058,10 @@ In Closet is Pistol.
     <changed>YES</changed>
     <temporary score="105">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6ba0" />
+      <child nodeId="node-0x6d27730" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6ba0">
+  <item nodeId="node-0x6d27730">
     <command xml:space="preserve">die</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2527,7 +3070,7 @@ In Closet is Pistol.
     <changed>YES</changed>
     <temporary score="104">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd6c10">
+  <item nodeId="node-0x6d277a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 interrogation room
@@ -2540,10 +3083,10 @@ You can see Backdoor and Notice here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6c80" />
+      <child nodeId="node-0x6d27810" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6c80">
+  <item nodeId="node-0x6d27810">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2556,10 +3099,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6cf0" />
+      <child nodeId="node-0x6d27880" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6cf0">
+  <item nodeId="node-0x6d27880">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -2569,10 +3112,10 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6d60" />
+      <child nodeId="node-0x6d278f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6d60">
+  <item nodeId="node-0x6d278f0">
     <command xml:space="preserve">wear guard uniform</command>
     <result xml:space="preserve">You&apos;re already wearing that!
 
@@ -2581,11 +3124,11 @@ You can see Officer here.
     <changed>NO</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6eb0" />
-      <child nodeId="node-0x6dd6dd0" />
+      <child nodeId="node-0x6d27a40" />
+      <child nodeId="node-0x6d27960" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6dd0">
+  <item nodeId="node-0x6d27960">
     <command xml:space="preserve">b</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2594,10 +3137,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6e40" />
+      <child nodeId="node-0x6d279d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6e40">
+  <item nodeId="node-0x6d279d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2610,7 +3153,7 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="96">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd6eb0">
+  <item nodeId="node-0x6d27a40">
     <command xml:space="preserve">j</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2619,10 +3162,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd6f20" />
+      <child nodeId="node-0x6d27ab0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd6f20">
+  <item nodeId="node-0x6d27ab0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2644,7 +3187,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd6f90">
+  <item nodeId="node-0x6d27b20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 interrogation room
@@ -2657,10 +3200,10 @@ You can see Backdoor and Notice here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd7000" />
+      <child nodeId="node-0x6d27b90" />
     </children>
   </item>
-  <item nodeId="node-0x6dd7000">
+  <item nodeId="node-0x6d27b90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Hallway
@@ -2684,10 +3227,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd7070" />
+      <child nodeId="node-0x6d27c00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd7070">
+  <item nodeId="node-0x6d27c00">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -2697,10 +3240,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd70e0" />
+      <child nodeId="node-0x6d27c70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd70e0">
+  <item nodeId="node-0x6d27c70">
     <command xml:space="preserve">wear guard uniform</command>
     <result xml:space="preserve">You put on Guard uniform.
 
@@ -2709,10 +3252,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd7150" />
+      <child nodeId="node-0x6d27ce0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd7150">
+  <item nodeId="node-0x6d27ce0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">take thumbtack
 </result>
@@ -2720,7 +3263,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd71c0">
+  <item nodeId="node-0x6d27d50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2729,7 +3272,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x6dd2ed0">
+  <item nodeId="node-0x6d27dc0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">Elegant, black, leather shoes. They have laces.
 
@@ -2738,10 +3281,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2f40" />
+      <child nodeId="node-0x6d27e30" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2f40">
+  <item nodeId="node-0x6d27e30">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">Notice: Taken.
 Thumbtack: Taken.
@@ -2752,10 +3295,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd2fb0" />
+      <child nodeId="node-0x6d27ea0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd2fb0">
+  <item nodeId="node-0x6d27ea0">
     <command xml:space="preserve">x notice</command>
     <result xml:space="preserve">There is a picture of a man with short grey hair and a five o&apos;clock shadow. Above the picture, it says &quot;Wanted: Jacob Smith.&quot;
 
@@ -2764,10 +3307,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3020" />
+      <child nodeId="node-0x6d27f10" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3020">
+  <item nodeId="node-0x6d27f10">
     <command xml:space="preserve">x metal door</command>
     <result xml:space="preserve">You see nothing special about Metal door.
 
@@ -2776,10 +3319,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3090" />
+      <child nodeId="node-0x6d27f80" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3090">
+  <item nodeId="node-0x6d27f80">
     <command xml:space="preserve">open metal door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -2788,10 +3331,10 @@ Shoes: Taken.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3100" />
+      <child nodeId="node-0x6d27ff0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3100">
+  <item nodeId="node-0x6d27ff0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 hallway
@@ -2815,10 +3358,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3170" />
+      <child nodeId="node-0x6d28060" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3170">
+  <item nodeId="node-0x6d28060">
     <command xml:space="preserve">under</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -2828,10 +3371,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd31e0" />
+      <child nodeId="node-0x6d280d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd31e0">
+  <item nodeId="node-0x6d280d0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -2841,10 +3384,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3250" />
+      <child nodeId="node-0x6d28140" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3250">
+  <item nodeId="node-0x6d28140">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2853,10 +3396,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd32c0" />
+      <child nodeId="node-0x6d281b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd32c0">
+  <item nodeId="node-0x6d281b0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening Metal door)
 It seems to be locked.
@@ -2866,10 +3409,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3330" />
+      <child nodeId="node-0x6d28220" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3330">
+  <item nodeId="node-0x6d28220">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2878,10 +3421,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd33a0" />
+      <child nodeId="node-0x6d28290" />
     </children>
   </item>
-  <item nodeId="node-0x6dd33a0">
+  <item nodeId="node-0x6d28290">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock Metal door with?
 
@@ -2890,10 +3433,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3410" />
+      <child nodeId="node-0x6d28300" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3410">
+  <item nodeId="node-0x6d28300">
     <command xml:space="preserve">thumbtack</command>
     <result xml:space="preserve">If you stick the thumbtack in it will get stuck, and you won&apos;t be able to pull it out.
 
@@ -2902,10 +3445,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3480" />
+      <child nodeId="node-0x6d28370" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3480">
+  <item nodeId="node-0x6d28370">
     <command xml:space="preserve">x bulletin board</command>
     <result xml:space="preserve">Some sort of notice is pressed against board. A large thumbtack is pressed into the board as well.
 
@@ -2914,10 +3457,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd34f0" />
+      <child nodeId="node-0x6d283e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd34f0">
+  <item nodeId="node-0x6d283e0">
     <command xml:space="preserve">take thumbtack</command>
     <result xml:space="preserve">You already have that.
 
@@ -2926,10 +3469,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3560" />
+      <child nodeId="node-0x6d28450" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3560">
+  <item nodeId="node-0x6d28450">
     <command xml:space="preserve">x bealt</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2938,10 +3481,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd35d0" />
+      <child nodeId="node-0x6d284c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd35d0">
+  <item nodeId="node-0x6d284c0">
     <command xml:space="preserve">belt</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2950,10 +3493,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3640" />
+      <child nodeId="node-0x6d28530" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3640">
+  <item nodeId="node-0x6d28530">
     <command xml:space="preserve">x belt</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2962,10 +3505,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd36b0" />
+      <child nodeId="node-0x6d285a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd36b0">
+  <item nodeId="node-0x6d285a0">
     <command xml:space="preserve">combine shoes with thumbtack</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2974,10 +3517,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3720" />
+      <child nodeId="node-0x6d28610" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3720">
+  <item nodeId="node-0x6d28610">
     <command xml:space="preserve">combine</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2986,10 +3529,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3790" />
+      <child nodeId="node-0x6d28680" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3790">
+  <item nodeId="node-0x6d28680">
     <command xml:space="preserve">combine</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2998,10 +3541,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3800" />
+      <child nodeId="node-0x6d286f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3800">
+  <item nodeId="node-0x6d286f0">
     <command xml:space="preserve">combine</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3010,10 +3553,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3870" />
+      <child nodeId="node-0x6d28760" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3870">
+  <item nodeId="node-0x6d28760">
     <command xml:space="preserve">mix</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3022,10 +3565,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd38e0" />
+      <child nodeId="node-0x6d287d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd38e0">
+  <item nodeId="node-0x6d287d0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">Elegant, black, leather shoes. They have laces.
 
@@ -3034,10 +3577,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3950" />
+      <child nodeId="node-0x6d28840" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3950">
+  <item nodeId="node-0x6d28840">
     <command xml:space="preserve">unlock door with shoes</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -3046,10 +3589,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd39c0" />
+      <child nodeId="node-0x6d288b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd39c0">
+  <item nodeId="node-0x6d288b0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   Shoes
@@ -3061,10 +3604,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3a30" />
+      <child nodeId="node-0x6d28920" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3a30">
+  <item nodeId="node-0x6d28920">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock Metal door with?
 
@@ -3073,10 +3616,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3aa0" />
+      <child nodeId="node-0x6d28990" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3aa0">
+  <item nodeId="node-0x6d28990">
     <command xml:space="preserve">notice</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -3085,10 +3628,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3b10" />
+      <child nodeId="node-0x6d28a00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3b10">
+  <item nodeId="node-0x6d28a00">
     <command xml:space="preserve">put on shoes</command>
     <result xml:space="preserve">Your feet ache really bad right now. One of the last things you want to do now is wear those uncomfortable things.
 
@@ -3097,10 +3640,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3b80" />
+      <child nodeId="node-0x6d28a70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3b80">
+  <item nodeId="node-0x6d28a70">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening Metal door)
 It seems to be locked.
@@ -3110,10 +3653,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3bf0" />
+      <child nodeId="node-0x6d28ae0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3bf0">
+  <item nodeId="node-0x6d28ae0">
     <command xml:space="preserve">x metal door</command>
     <result xml:space="preserve">You see nothing special about Metal door.
 
@@ -3122,10 +3665,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3c60" />
+      <child nodeId="node-0x6d28b50" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3c60">
+  <item nodeId="node-0x6d28b50">
     <command xml:space="preserve">combine shoe laces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3134,10 +3677,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3cd0" />
+      <child nodeId="node-0x6d28bc0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3cd0">
+  <item nodeId="node-0x6d28bc0">
     <command xml:space="preserve">x shoe laces</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3146,10 +3689,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3d40" />
+      <child nodeId="node-0x6d28c30" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3d40">
+  <item nodeId="node-0x6d28c30">
     <command xml:space="preserve">x shoe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3158,10 +3701,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3db0" />
+      <child nodeId="node-0x6d28ca0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3db0">
+  <item nodeId="node-0x6d28ca0">
     <command xml:space="preserve">x shoes</command>
     <result xml:space="preserve">Elegant, black, leather shoes. They have laces.
 
@@ -3170,10 +3713,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3e20" />
+      <child nodeId="node-0x6d28d10" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3e20">
+  <item nodeId="node-0x6d28d10">
     <command xml:space="preserve">x thumbtack</command>
     <result xml:space="preserve">A long, sharp red thumbtack.
 
@@ -3182,10 +3725,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3e90" />
+      <child nodeId="node-0x6d28d80" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3e90">
+  <item nodeId="node-0x6d28d80">
     <command xml:space="preserve">put thumbtack on shoes</command>
     <result xml:space="preserve">Putting things on Shoes would achieve nothing.
 
@@ -3194,10 +3737,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3f00" />
+      <child nodeId="node-0x6d28df0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3f00">
+  <item nodeId="node-0x6d28df0">
     <command xml:space="preserve">put shoes on thumbtack</command>
     <result xml:space="preserve">Putting things on Thumbtack would achieve nothing.
 
@@ -3206,10 +3749,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3f70" />
+      <child nodeId="node-0x6d28e60" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3f70">
+  <item nodeId="node-0x6d28e60">
     <command xml:space="preserve">remove shoelaces</command>
     <result xml:space="preserve">You remove shoelaces from shoes
 &gt;</result>
@@ -3217,10 +3760,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd3fe0" />
+      <child nodeId="node-0x6d28ed0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd3fe0">
+  <item nodeId="node-0x6d28ed0">
     <command xml:space="preserve">combine shoelaces with thumbtack</command>
     <result xml:space="preserve">You thread the shoelace onto the thumbtack, making a lockpick.
 
@@ -3229,10 +3772,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4050" />
+      <child nodeId="node-0x6d28f40" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4050">
+  <item nodeId="node-0x6d28f40">
     <command xml:space="preserve">unlock metal door with lockpick</command>
     <result xml:space="preserve">You unlock Metal door.
 
@@ -3241,10 +3784,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd40c0" />
+      <child nodeId="node-0x6d28fb0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd40c0">
+  <item nodeId="node-0x6d28fb0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening Metal door)
 
@@ -3258,10 +3801,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4130" />
+      <child nodeId="node-0x6d29020" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4130">
+  <item nodeId="node-0x6d29020">
     <command xml:space="preserve">x closet</command>
     <result xml:space="preserve">A large wooden closet. It looks pretty busted up.
 
@@ -3270,10 +3813,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd41a0" />
+      <child nodeId="node-0x6d29090" />
     </children>
   </item>
-  <item nodeId="node-0x6dd41a0">
+  <item nodeId="node-0x6d29090">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">You open Closet, revealing Guard uniform and Pistol.
 
@@ -3282,10 +3825,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4210" />
+      <child nodeId="node-0x6d29100" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4210">
+  <item nodeId="node-0x6d29100">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">Guard uniform: Taken.
 Pistol: Taken.
@@ -3295,10 +3838,10 @@ Pistol: Taken.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4280" />
+      <child nodeId="node-0x6d29170" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4280">
+  <item nodeId="node-0x6d29170">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 interrogation room
@@ -3311,10 +3854,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd42f0" />
+      <child nodeId="node-0x6d291e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd42f0">
+  <item nodeId="node-0x6d291e0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 hallway
@@ -3338,10 +3881,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4360" />
+      <child nodeId="node-0x6d29250" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4360">
+  <item nodeId="node-0x6d29250">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">interrogation room
 [Previous turn undone.]
@@ -3351,10 +3894,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd43d0" />
+      <child nodeId="node-0x6d292c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd43d0">
+  <item nodeId="node-0x6d292c0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 surveillance room
@@ -3367,10 +3910,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4440" />
+      <child nodeId="node-0x6d29330" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4440">
+  <item nodeId="node-0x6d29330">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -3379,10 +3922,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd44b0" />
+      <child nodeId="node-0x6d293a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd44b0">
+  <item nodeId="node-0x6d293a0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   Pistol
@@ -3395,10 +3938,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4520" />
+      <child nodeId="node-0x6d29410" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4520">
+  <item nodeId="node-0x6d29410">
     <command xml:space="preserve">x computer</command>
     <result xml:space="preserve">You see nothing special about Computer.
 
@@ -3407,10 +3950,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4590" />
+      <child nodeId="node-0x6d29480" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4590">
+  <item nodeId="node-0x6d29480">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 interrogation room
@@ -3423,10 +3966,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4600" />
+      <child nodeId="node-0x6d294f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4600">
+  <item nodeId="node-0x6d294f0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 surveillance room
@@ -3439,10 +3982,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4670" />
+      <child nodeId="node-0x6d29560" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4670">
+  <item nodeId="node-0x6d29560">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3451,10 +3994,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd46e0" />
+      <child nodeId="node-0x6d295d0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd46e0">
+  <item nodeId="node-0x6d295d0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3463,10 +4006,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4750" />
+      <child nodeId="node-0x6d29640" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4750">
+  <item nodeId="node-0x6d29640">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Lab
@@ -3479,10 +4022,10 @@ You can see Keyboard here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd47c0" />
+      <child nodeId="node-0x6d296b0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd47c0">
+  <item nodeId="node-0x6d296b0">
     <command xml:space="preserve">take keyboard</command>
     <result xml:space="preserve">Taken.
 
@@ -3491,10 +4034,10 @@ You can see Keyboard here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4830" />
+      <child nodeId="node-0x6d29720" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4830">
+  <item nodeId="node-0x6d29720">
     <command xml:space="preserve">use keyboard</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3503,10 +4046,10 @@ You can see Keyboard here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd48a0" />
+      <child nodeId="node-0x6d29790" />
     </children>
   </item>
-  <item nodeId="node-0x6dd48a0">
+  <item nodeId="node-0x6d29790">
     <command xml:space="preserve">x keyboard</command>
     <result xml:space="preserve">You see nothing special about Keyboard.
 
@@ -3515,10 +4058,10 @@ You can see Keyboard here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4910" />
+      <child nodeId="node-0x6d29800" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4910">
+  <item nodeId="node-0x6d29800">
     <command xml:space="preserve">x monitor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3527,10 +4070,10 @@ You can see Keyboard here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4980" />
+      <child nodeId="node-0x6d29870" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4980">
+  <item nodeId="node-0x6d29870">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3539,10 +4082,10 @@ You can see Keyboard here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd49f0" />
+      <child nodeId="node-0x6d298e0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd49f0">
+  <item nodeId="node-0x6d298e0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 surveillance room
@@ -3555,10 +4098,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4a60" />
+      <child nodeId="node-0x6d29950" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4a60">
+  <item nodeId="node-0x6d29950">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3567,10 +4110,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4ad0" />
+      <child nodeId="node-0x6d299c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4ad0">
+  <item nodeId="node-0x6d299c0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Lab
@@ -3581,10 +4124,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4b40" />
+      <child nodeId="node-0x6d29a30" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4b40">
+  <item nodeId="node-0x6d29a30">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3593,10 +4136,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4bb0" />
+      <child nodeId="node-0x6d29aa0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4bb0">
+  <item nodeId="node-0x6d29aa0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3605,10 +4148,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4c20" />
+      <child nodeId="node-0x6d29b10" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4c20">
+  <item nodeId="node-0x6d29b10">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3617,10 +4160,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4c90" />
+      <child nodeId="node-0x6d29b80" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4c90">
+  <item nodeId="node-0x6d29b80">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   Keyboard
@@ -3634,10 +4177,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4d00" />
+      <child nodeId="node-0x6d29bf0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4d00">
+  <item nodeId="node-0x6d29bf0">
     <command xml:space="preserve">put on uniform</command>
     <result xml:space="preserve">You put on Guard uniform.
 
@@ -3646,10 +4189,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4d70" />
+      <child nodeId="node-0x6d29c60" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4d70">
+  <item nodeId="node-0x6d29c60">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3658,10 +4201,10 @@ A large monitor hangs on the wall. There is keyboard that you can use.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4de0" />
+      <child nodeId="node-0x6d29cd0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4de0">
+  <item nodeId="node-0x6d29cd0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 surveillance room
@@ -3674,10 +4217,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4e50" />
+      <child nodeId="node-0x6d29d40" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4e50">
+  <item nodeId="node-0x6d29d40">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3686,10 +4229,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4ec0" />
+      <child nodeId="node-0x6d29db0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4ec0">
+  <item nodeId="node-0x6d29db0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 interrogation room
@@ -3702,10 +4245,10 @@ You can see Metal door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4f30" />
+      <child nodeId="node-0x6d29e20" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4f30">
+  <item nodeId="node-0x6d29e20">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 hallway
@@ -3718,10 +4261,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd4fa0" />
+      <child nodeId="node-0x6d29e90" />
     </children>
   </item>
-  <item nodeId="node-0x6dd4fa0">
+  <item nodeId="node-0x6d29e90">
     <command xml:space="preserve">shoot offier</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -3730,10 +4273,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5010" />
+      <child nodeId="node-0x6d29f00" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5010">
+  <item nodeId="node-0x6d29f00">
     <command xml:space="preserve">shoot officer</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -3742,10 +4285,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5080" />
+      <child nodeId="node-0x6d29f70" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5080">
+  <item nodeId="node-0x6d29f70">
     <command xml:space="preserve">talk to officer</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3754,10 +4297,10 @@ You can see Officer here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd50f0" />
+      <child nodeId="node-0x6d29fe0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd50f0">
+  <item nodeId="node-0x6d29fe0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 office
@@ -3768,10 +4311,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5160" />
+      <child nodeId="node-0x6d2a050" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5160">
+  <item nodeId="node-0x6d2a050">
     <command xml:space="preserve">open white door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -3780,10 +4323,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd51d0" />
+      <child nodeId="node-0x6d2a0c0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd51d0">
+  <item nodeId="node-0x6d2a0c0">
     <command xml:space="preserve">x guard</command>
     <result xml:space="preserve">You see nothing special about Guard uniform.
 
@@ -3792,10 +4335,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5240" />
+      <child nodeId="node-0x6d2a130" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5240">
+  <item nodeId="node-0x6d2a130">
     <command xml:space="preserve">x officer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3804,10 +4347,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd52b0" />
+      <child nodeId="node-0x6d2a1a0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd52b0">
+  <item nodeId="node-0x6d2a1a0">
     <command xml:space="preserve">x Officer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3816,10 +4359,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5320" />
+      <child nodeId="node-0x6d2a210" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5320">
+  <item nodeId="node-0x6d2a210">
     <command xml:space="preserve">x Officer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3828,10 +4371,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5390" />
+      <child nodeId="node-0x6d2a280" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5390">
+  <item nodeId="node-0x6d2a280">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   Keyboard
@@ -3845,10 +4388,10 @@ You can see White door here.
     <changed>YES</changed>
     <temporary score="211">YES</temporary>
     <children>
-      <child nodeId="node-0x6dd5400" />
+      <child nodeId="node-0x6d2a2f0" />
     </children>
   </item>
-  <item nodeId="node-0x6dd5400">
+  <item nodeId="node-0x6d2a2f0">
     <command xml:space="preserve">x player</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
